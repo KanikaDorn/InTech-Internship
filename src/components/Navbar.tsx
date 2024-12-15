@@ -6,7 +6,6 @@ import {
   faFacebook,
   faXTwitter,
 } from "@fortawesome/free-brands-svg-icons";
-
 const Navbar: React.FC = () => {
   const scrollToSection = (sectionId: string) => {
     const section = document.getElementById(sectionId);
