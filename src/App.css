@@ -239,8 +239,12 @@ body {
 .contact-us {
   flex: 1;
   text-align: left;
-  margin-right: 30px;
+  margin-right: 2opx;
   margin-left: 20px; /* Add left margin for spacing */
+}
+.contact-us h3{
+  font-size: 2rem;
+  margin-right: 2opx;
 }
 
 .social-icons {
@@ -459,7 +463,4 @@ body {
 }
 
 
-.contact-US{
-  font-weight:bolder;
-}
 

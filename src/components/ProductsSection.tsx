@@ -6,19 +6,19 @@ const ProductsSection: React.FC = () => {
       title: "Mobile Attendance System",
       description:
         "An intuitive mobile app that makes clocking in and out seamless for employees.",
-      image: "src/assets/images/SL.png",
+      image: "/images/SL.png",
     },
     {
       title: "Face Recognition Attendance System",
       description:
         "Advanced face recognition technology for accurate attendance tracking.",
-      image: "src/assets/images/ML.png",
+      image: "/images/ML.png",
     },
     {
       title: "Smart Laundry System",
       description:
         "Receive weekly QR codes to activate laundry machines with ease.",
-      image: "src/assets/images/Group.png",
+      image: "/images/Group.png",
     },
   ];
 

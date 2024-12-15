@@ -1,11 +1,4 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faTelegram,
-  faInstagram,
-  faFacebook,
-  faXTwitter,
-} from "@fortawesome/free-brands-svg-icons";
 const Navbar: React.FC = () => {
   const scrollToSection = (sectionId: string) => {
     const section = document.getElementById(sectionId);
@@ -18,7 +11,7 @@ const Navbar: React.FC = () => {
     <nav className="navbar">
       <div className="navbar-left">
         <img
-          src="http://192.168.0.77:8000/_nuxt/intech_logo-clear.BqQbyHg-.png"
+          src="https://s3-alpha-sig.figma.com/img/ec42/b7f8/5458d66e117f57150064c5a89b3b5e33?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FY3oDk6WxLj30rHGU0flkrkY7uScngxcOzC9OoiE-Xbgt9o3fqRUMEpNCXO~wMfCyiYywE14Krz9iyt26COZmnx9bEvXb9ouiYimq~SvTf-bYe5baRKKpdhsC8jCLT~OrPqMuAYZJbp2370~oGjR81f4oRpP2b2D4tPxSXdSeqtM6xKK7Vbsmkn-OjQkWsbzhoPewzTAb7O0nszN8je68GMQB-0vtkrYIEuskt~SBDawU94ORGax3Tb5DYlXEp9ovNxAKGQju56c2h2Iui6Qs6nBTtMDr~eOzEmJQ9y4lYIuTmdsWX2taeVDVhEduNQjpDmZ-UTANUDyguSpN7-THQ__"
           alt="Logo"
           className="logo-image"
         />
@@ -71,28 +64,6 @@ const Navbar: React.FC = () => {
       </ul>
       <div className="navbar-right">
         <button className="request-demo-button">Request Demo</button>
-      </div>
-      <div className="social-icons">
-        <a href="https://t.me" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faTelegram} className="social-icon" />
-        </a>
-        <a
-          href="https://instagram.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FontAwesomeIcon icon={faInstagram} className="social-icon" />
-        </a>
-        <a
-          href="https://facebook.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FontAwesomeIcon icon={faFacebook} className="social-icon" />
-        </a>
-        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faXTwitter} className="social-icon" />
-        </a>
       </div>
     </nav>
   );
