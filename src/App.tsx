@@ -1,6 +1,5 @@
 import React from "react";
-import "./App.css"; // Optional: Add CSS file for styling
-
+import "./App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faTelegram,

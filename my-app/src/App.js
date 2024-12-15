@@ -4,10 +4,6 @@ import groupImage from './assets/images/Group.png';
 import ML from './assets/images/ML.png';
 import SL from './assets/images/SL.png';
 import demoImage from './assets/images/demo-picture.png'; // Correct import path
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
-
-<FontAwesomeIcon icon={faCoffee} />
-
 
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
